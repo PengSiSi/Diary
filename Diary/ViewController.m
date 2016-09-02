@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-//    self.navigationController.navigationBar.hidden = YES;
     self.view.backgroundColor = [UIColor iOS7greenColor];
     UILabel *Label = [[UILabel alloc] init];
     [self.view addSubview:Label];
