@@ -1,0 +1,24 @@
+//
+//  Diary.pch
+//  Diary
+//
+//  Created by 思 彭 on 16/8/2.
+//  Copyright © 2016年 思 彭. All rights reserved.
+//
+
+#ifndef Diary_pch
+#define Diary_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "masonry.h"
+#import "UIColor+iOS7Colors.h"
+
+
+
+#define k_ScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define k_ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+
+#endif /* Diary_pch */
